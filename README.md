@@ -23,3 +23,18 @@ Distibution of tweets in the dataset is as follows:
 |----------|----------|----------|----------|----------|----------|
 | EN | Religion<br>Gender<br>Race<br>Politics<br>Sport | 1,427<br>1,313<br>1,541<br>1,610<br>1,434 | 5,221<br>6,431<br>3,846<br>6,018<br>5,624 | 13,352<br>12,256<br>14,613<br>12,372<br>12,942 | 20k<br>20k<br>20k<br>20k<br>20k
 | TR | Religion<br>Gender<br>Race<br>Politics<br>Sport | 5,688<br>2,780<br>5,095<br>7,657<br>6,373 | 7,435<br>6,521<br>4,905<br>4,253<br>7,633 | 6,877<br>10,699<br>10,000<br>8,090<br>5,994 | 20k<br>20k<br>20k<br>20k<br>20k
+
+## Citation
+If you make use of this dataset, please cite following paper.
+
+```bibtex
+@misc{toraman2022largescale,
+      title={Large-Scale Hate Speech Detection with Cross-Domain Transfer}, 
+      author={Cagri Toraman and Furkan Şahinuç and Eyup Halit Yılmaz},
+      year={2022},
+      eprint={2203.01111},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+ 
+```
