@@ -36,5 +36,4 @@ If you make use of this dataset, please cite following paper.
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
- 
 ```
