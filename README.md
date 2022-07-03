@@ -1,5 +1,5 @@
 # Large-Scale Hate Speech Dataset
-This repository contains the utilized dataset in the paper "Large-Scale Hate Speech Detection with Cross-Domain Transfer". This study mainly focuses hate speech detection in Turkish and English. In addition, domain transfer success between hate domains is also examined.
+This repository contains the utilized dataset in the LREC 2022 paper "Large-Scale Hate Speech Detection with Cross-Domain Transfer". This study mainly focuses hate speech detection in Turkish and English. In addition, domain transfer success between hate domains is also examined.
 
 ## Dataset
 
@@ -28,12 +28,16 @@ Distibution of tweets in the dataset is as follows:
 If you make use of this dataset, please cite following paper.
 
 ```bibtex
-@misc{toraman2022largescale,
-      title={Large-Scale Hate Speech Detection with Cross-Domain Transfer}, 
-      author={Cagri Toraman and Furkan Şahinuç and Eyup Halit Yılmaz},
-      year={2022},
-      eprint={2203.01111},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@InProceedings{toraman2022large,
+  author    = {Toraman, Cagri  and  \c{S}ahinu\c{c}, Furkan and Yilmaz, Eyup Halit},
+  title     = {Large-Scale Hate Speech Detection with Cross-Domain Transfer},
+  booktitle = {Proceedings of the Language Resources and Evaluation Conference},
+  month     = {June},
+  year      = {2022},
+  address   = {Marseille, France},
+  publisher = {European Language Resources Association},
+  pages     = {2215--2225},
+  url       = {https://aclanthology.org/2022.lrec-1.238}
 }
+
 ```
