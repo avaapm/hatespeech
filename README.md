@@ -46,7 +46,7 @@ Distibution of tweets in the dataset is as follows:
 
 | Lang. | Domain | Hate | Offensive | Normal | Total |
 |----------|----------|----------|----------|----------|----------|
-| EN | Religion<br>Gender<br>Race<br>Politics<br>Sport <br> **Total** | 1,427<br>1,313<br>1,541<br>1,610<br>1,434 <br> **7,325 (7%)** | 5,221<br>6,431<br>3,846<br>6,018<br>5,624<br> **27,140 (27%)** | 13,352<br>12,256<br>14,613<br>12,372<br>12,942 <br> **65,535 (%)**| 20,000<br>20,000<br>20,000<br>20,000<br>20,000 <br> **100,000**
+| EN | Religion<br>Gender<br>Race<br>Politics<br>Sport <br> **Total** | 1,427<br>1,313<br>1,541<br>1,610<br>1,434 <br> **7,325 (7%)** | 5,221<br>6,431<br>3,846<br>6,018<br>5,624<br> **27,140 (27%)** | 13,352<br>12,256<br>14,613<br>12,372<br>12,942 <br> **65,535 (66%)**| 20,000<br>20,000<br>20,000<br>20,000<br>20,000 <br> **100,000**
 | TR | Religion<br>Gender<br>Race<br>Politics<br>Sport <br> **Total**| 5,688<br>2,780<br>5,095<br>7,657<br>6,373<br> **27,593 (28%)** | 7,435<br>6,521<br>4,905<br>4,253<br>7,633<br> **30,747 (31%)**| 6,877<br>10,699<br>10,000<br>8,090<br>5,994<br> **41,660 (41%)**| 20,000<br>20,000<br>20,000<br>20,000<br>20,000 <br> **100,000**
 
 ## Citation
