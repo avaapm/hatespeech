@@ -33,6 +33,7 @@ This file contains the individual annotations for each tweet. There are 20 label
 | TweetID | Twitter ID of the tweet |
 | labeler_i | Annotation of the ith annotator 0-Normal, 1-Offensive, 2-Hate |
 
+Thanks to **Izzet Emre Kucukkaya** for helping in the preparation of the dataset v2.
 
 ## Dataset v1 (hate_speech_dataset.csv)
 
