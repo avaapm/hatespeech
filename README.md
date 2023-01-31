@@ -3,8 +3,9 @@ This repository contains the utilized dataset in the LREC 2022 paper "Large-Scal
 
 There are two dataset versions. 
 
-Dataset v1: The original dataset that includes 100k tweet per English and Turkish, published in LREC 2022. The annotations with more than 60% agreement are included.
-Dataset v2: A more reliable dataset version that includes 68,597 tweets for English and 60,310 tweets for Turkish. The annotations with more than 80% agreement are included.
+**Dataset v1:** The original dataset that includes **100k tweet per English and Turkish**, published in LREC 2022. The annotations with **more than 60% agreement** are included.
+
+**Dataset v2:** A more reliable dataset version that includes **68,597 tweets for English and 60,310 for Turkish**. The annotations with **more than 80% agreement** are included.
 
 ## Dataset v2 (hate_speech_dataset_v2.csv)
 
