@@ -1,7 +1,7 @@
 # Large-Scale Hate Speech Dataset
 This repository contains the utilized dataset in the LREC 2022 paper "Large-Scale Hate Speech Detection with Cross-Domain Transfer". This study mainly focuses hate speech detection in Turkish and English. In addition, domain transfer success between hate domains is also examined.
 
-## Dataset v2
+## Dataset v2 (hate_speech_dataset_v2.csv)
 
 The dataset version 2 is composed of 128.907 of 200,000 tweets. 60310 of them are Turkish and the rest are English. We also have domain information of the hate speech. These domains are Religion, Gender, Race, Politics, Sports. Each domain has similar number of tweets in each respective language. 5 hate annotations of the tweet are also given. Since we followed Twitter's Terms and Conditions, publish tweet IDs not the tweet content directly. Explanations of the columns of the file are as follows:
 
@@ -14,12 +14,12 @@ The dataset version 2 is composed of 128.907 of 200,000 tweets. 60310 of them ar
 
 Distibution of tweets in the dataset is as follows:
 
-| Lang. | Domain | Hate | Offen. | Normal | Total |
+| Lang. | Domain | Hate | Offensive | Normal | Total |
 |----------|----------|----------|----------|----------|----------|
-| EN | Religion<br>Gender<br>Race<br>Politics<br>Sport | 328<br>255<br>405<br>343<br>286 | 2,369<br>3,043<br>1,631<br>2,972<br>2,814 | 10,713<br>9,537<br>12,566<br>9,994<br>11,341 | 13,410<br>12,835<br>14,602<br>13,309<br>14,441
-| TR | Religion<br>Gender<br>Race<br>Politics<br>Sport | 2,281<br>970<br>1,897<br>3,657<br>4,016 | 3,814<br>3,385<br>2,276<br>1,529<br>3,930 | 5,058<br>8,353<br>8,236<br>6,251<br>4,657 | 11,153<br>12,708<br>12,409<br>11,437<br>12,603
+| EN | Religion<br>Gender<br>Race<br>Politics<br>Sport <br>  **Total**| 328<br>255<br>405<br>343<br>286 <br> **1,617 (2%)**| 2,369<br>3,043<br>1,631<br>2,972<br>2,814 <br> **12,829 (19%)** | 10,713<br>9,537<br>12,566<br>9,994<br>11,341 <br> **54,151 (79%)** | 13,410<br>12,835<br>14,602<br>13,309<br>14,441 <br> **68,597**
+| TR | Religion<br>Gender<br>Race<br>Politics<br>Sport <br> **Total**| 2,281<br>970<br>1,897<br>3,657<br>4,016 <br> **12,821 (21%)**| 3,814<br>3,385<br>2,276<br>1,529<br>3,930 <br>  **14,934 (25%)** | 5,058<br>8,353<br>8,236<br>6,251<br>4,657 <br> **32,555 (54%)**| 11,153<br>12,708<br>12,409<br>11,437<br>12,603 <br> **60,310**
 
-## Dataset labeler
+## Dataset labeler (hate_speech_dataset_v2_labeler.csv)
 | Column Name  | Description |
 | ------------- | ------------- |
 | TweetID | Twitter ID of the tweet |
