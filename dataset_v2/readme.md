@@ -19,6 +19,11 @@ Distibution of tweets in the dataset is as follows:
 ## Dataset labeler (hate_speech_dataset_v2_labeler.csv)
 This file contains the individual annotations for each tweet. There are 20 labelers, and each tweet is annotated by 5 labelers.
 
+| F1-Score | Neutral | Offensive | Hateful | Weighted |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Bert-base-uncased (EN) | 0.968 ± 0.002 | 0.858 ± 0.008 | 0.631 ±  0.039 | 0.940 ± 0.004 |
+| Bert-base-turkish-uncased (TR) | 0.946 ± 0.002 | 0.852 ± 0.005 | 0.887 ± 0.005 | 0.910 ± 0.003 |
+
 | Column Name  | Description |
 | ------------- | ------------- |
 | TweetID | Twitter ID of the tweet |
