@@ -33,6 +33,8 @@ This file contains the individual annotations for each tweet. There are 20 label
 | TweetID | Twitter ID of the tweet |
 | labeler_i | Annotation of the ith annotator 0-Normal, 1-Offensive, 2-Hate |
 
+Using the dataset v2, we run BERT and BERTurk by applying 10-fold cross validation ([as in the published version, v1](https://aclanthology.org/2022.lrec-1.238/). Each data split has 90% of train and 10% of test. We report the average F1 scores.
+
 | F1-Score | Neutral | Offensive | Hateful | Weighted |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Bert-base-uncased (EN) | 0.968 ± 0.002 | 0.858 ± 0.008 | 0.631 ±  0.039 | 0.940 ± 0.004 |
