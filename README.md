@@ -1,3 +1,6 @@
+**Update on April 27th, 2023:**
+We acknowledge that Twitter API has limited free access. Please contact **Cagri Toraman (cagritoraman@gmail.com)** if you have difficulties to fetch the data from Twitter API. 
+
 # Large-Scale Hate Speech Dataset
 This repository contains the utilized dataset in the LREC 2022 paper "Large-Scale Hate Speech Detection with Cross-Domain Transfer". This study mainly focuses hate speech detection in Turkish and English. In addition, domain transfer success between hate domains is also examined.
 
@@ -64,6 +67,9 @@ Distibution of tweets in the dataset is as follows:
 |----------|----------|----------|----------|----------|----------|
 | EN | Religion<br>Gender<br>Race<br>Politics<br>Sport <br> **Total** | 1,427<br>1,313<br>1,541<br>1,610<br>1,434 <br> **7,325 (7%)** | 5,221<br>6,431<br>3,846<br>6,018<br>5,624<br> **27,140 (27%)** | 13,352<br>12,256<br>14,613<br>12,372<br>12,942 <br> **65,535 (66%)**| 20,000<br>20,000<br>20,000<br>20,000<br>20,000 <br> **100,000**
 | TR | Religion<br>Gender<br>Race<br>Politics<br>Sport <br> **Total**| 5,688<br>2,780<br>5,095<br>7,657<br>6,373<br> **27,593 (28%)** | 7,435<br>6,521<br>4,905<br>4,253<br>7,633<br> **30,747 (31%)**| 6,877<br>10,699<br>10,000<br>8,090<br>5,994<br> **41,660 (41%)**| 20,000<br>20,000<br>20,000<br>20,000<br>20,000 <br> **100,000**
+
+## Contact
+Please contact Cagri Toraman (cagritoraman@gmail.com) in case of any issues with the datasets. 
 
 ## Citation
 If you make use of this dataset, please cite following paper.
