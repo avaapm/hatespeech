@@ -1,7 +1,16 @@
 **Update on April 27th, 2023:**
 We acknowledge that Twitter API has limited free access. Please contact **Cagri Toraman (cagritoraman@gmail.com)** if you have difficulties to fetch the data from Twitter API. 
 
-# Large-Scale Hate Speech Dataset
+# Published Models:
+English hate speech detection model finetuned on Dataset v2:
+
+https://huggingface.co/ctoraman/hate-speech-bert
+
+Turkish hate speech detection model finetuned on Dataset v2:
+
+https://huggingface.co/ctoraman/hate-speech-berturk
+
+# Large-Scale Hate Speech Datasets
 This repository contains the utilized dataset in the LREC 2022 paper "Large-Scale Hate Speech Detection with Cross-Domain Transfer". This study mainly focuses hate speech detection in Turkish and English. In addition, domain transfer success between hate domains is also examined.
 
 There are two dataset versions. 
